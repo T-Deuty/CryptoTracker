@@ -22,8 +22,36 @@ namespace CryptoTracker
     {
         protected static readonly Dictionary<string,string> nameDictionary = new Dictionary<string, string> {
             { "Bitcoin (BTC)" , "bitcoin" },
+            { "Litecoin (LTC)" , "litecoin" },
             { "Tron (TRX)" , "tron" },
-            { "Ripple (XRP)" , "ripple" }
+            { "Ripple (XRP)" , "ripple" },
+            { "Ethereum (ETH)" , "ethereum" },
+            { "Bitcoin Cash (BCH)" , "bitcoin-cash" },
+            { "Cardano (ADA)" , "cardano" },
+            { "Stellar (XLM)" , "stellar" },
+            { "IOTA (MIOTA)" , "iota" },
+            { "NEM (XEM)" , "nem" },
+            { "Dash (DASH)" , "dash" },
+            { "Monero (XMR)" , "monero" },
+            { "NEO (NEO)" , "neo" },
+            { "EOS (EOS)" , "eos" },
+            { "Bitcoin Gold (BTG)" , "bitcoin-gold" },
+            { "Qtum (QTUM)" , "qtum" },
+            { "RaiBlocks (XRB)" , "raiblocks" },
+            { "Ethereum Classic (ETC)" , "ethereum-classic" },
+            { "BitConnect (BCC)" , "bitconnect" },
+            { "Lisk (LSK)" , "lisk" },
+            { "ICON (ICX)" , "icon" },
+            { "BitShares (BTS)" , "bitshares" },
+            { "OmiseGo (OMG)" , "omisego" },
+            { "Verge (XVG)" , "verge" },
+            { "Steem (STEEM)" , "steem" },
+            { "Ardor (ARDR)" , "ardor" },
+            { "Zcash (ZEC)" , "zcash" },
+            { "Populous (PPT)" , "populous" },
+            { "Status (SNT)" , "status" },
+            { "Stratis (STRAT)" , "stratis" },
+            { "Tether (USDT)" , "tether" }
         };
 
         protected TextBlock selectedTextBlock;
@@ -201,10 +229,10 @@ namespace CryptoTracker
             }
         }
 
-        private string UpdateUserUSDValueContentStr(ref CustomStackPanel sP, string usdPriceStr, string contentStr)
+        private string UpdateUserUSDValueContentStr(ref CustomStackPanel sP, string priceStr, string contentStr)
         {
             // update user value
-            sP.UserValue = addedAmount * Convert.ToDouble(usdPriceStr);
+            sP.UserValue = addedAmount * Convert.ToDouble(priceStr);
 
             if (addedAmount == 0.0)
             {
