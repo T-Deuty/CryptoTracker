@@ -20,40 +20,7 @@ namespace CryptoTracker
     /// </summary>
     public partial class MainWindow : Window
     {
-        protected static readonly Dictionary<string,string> nameDictionary = new Dictionary<string, string> {
-            { "Bitcoin (BTC)" , "bitcoin" },
-            { "Litecoin (LTC)" , "litecoin" },
-            { "Tron (TRX)" , "tron" },
-            { "Ripple (XRP)" , "ripple" },
-            { "Ethereum (ETH)" , "ethereum" },
-            { "Bitcoin Cash (BCH)" , "bitcoin-cash" },
-            { "Cardano (ADA)" , "cardano" },
-            { "Stellar (XLM)" , "stellar" },
-            { "IOTA (MIOTA)" , "iota" },
-            { "NEM (XEM)" , "nem" },
-            { "Dash (DASH)" , "dash" },
-            { "Monero (XMR)" , "monero" },
-            { "NEO (NEO)" , "neo" },
-            { "EOS (EOS)" , "eos" },
-            { "Bitcoin Gold (BTG)" , "bitcoin-gold" },
-            { "Qtum (QTUM)" , "qtum" },
-            { "RaiBlocks (XRB)" , "raiblocks" },
-            { "Ethereum Classic (ETC)" , "ethereum-classic" },
-            { "BitConnect (BCC)" , "bitconnect" },
-            { "Lisk (LSK)" , "lisk" },
-            { "ICON (ICX)" , "icon" },
-            { "BitShares (BTS)" , "bitshares" },
-            { "OmiseGo (OMG)" , "omisego" },
-            { "Verge (XVG)" , "verge" },
-            { "Steem (STEEM)" , "steem" },
-            { "Ardor (ARDR)" , "ardor" },
-            { "Zcash (ZEC)" , "zcash" },
-            { "Populous (PPT)" , "populous" },
-            { "Status (SNT)" , "status" },
-            { "Stratis (STRAT)" , "stratis" },
-            { "Tether (USDT)" , "tether" }
-        };
-
+        protected Dictionary<string, string> nameDictionary;
         protected TextBlock selectedTextBlock;
         protected CoinMarketCapAPI apiObj;
         protected string selectedCurrency;
@@ -63,6 +30,7 @@ namespace CryptoTracker
         {
             InitializeComponent();
             apiObj = new CoinMarketCapAPI();
+            this.nameDictionary = apiObj.GetNameDictionary();
             AddComboBox();
         }
 

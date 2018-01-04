@@ -1,0 +1,17 @@
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\bin\Release\CryptoTracker.exe.config
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\bin\Release\CryptoTracker.exe
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\bin\Release\CryptoTracker.pdb
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\bin\Release\Newtonsoft.Json.dll
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\bin\Release\Newtonsoft.Json.xml
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\CryptoTracker.csprojResolveAssemblyReference.cache
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\MainWindow.g.cs
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\App.g.cs
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\CryptoTracker_MarkupCompile.cache
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\CryptoTracker_MarkupCompile.lref
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\MainWindow.baml
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\CryptoTracker.g.resources
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\CryptoTracker.Properties.Resources.resources
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\CryptoTracker.csproj.GenerateResource.Cache
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\CryptoTracker.csproj.CoreCompileInputs.cache
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\CryptoTracker.exe
+C:\Users\Tyler\workspace\CryptoTracker\CryptoTrackerWin\CryptoTracker\obj\Release\CryptoTracker.pdb
