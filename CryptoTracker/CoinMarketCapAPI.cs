@@ -70,7 +70,11 @@ namespace CryptoTracker
             { "Aion (AION)" , "aion" },
             { "MonaCoin (MONA)" , "monacoin" },
             { "RequestNetwork (REQ)" , "request-network" },
-            { "Byteball Bytes (GBYTE)" , "byteball" }
+            { "Byteball Bytes (GBYTE)" , "byteball" },
+            { "RChain (RHOC)" , "rchain" },
+            { "Santiment Network Token (SAN)" , "santiment" },
+            { "aelf (ELF)" , "aelf" },
+            { "Po.et (POE)" , "poet" }
         };
 
         private const string url = "https://api.coinmarketcap.com/v1/ticker/";
